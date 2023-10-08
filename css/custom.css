@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../webfonts/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+body {
+  background: #14213d;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading .heading__title {
+  color: #fca311;
+  font-size: 2rem;
+}
+
+.heading .heading__description {
+  color: #e5e5e5;
+  font-size: 1rem;
+}
+
+.header .header__brand img {
+  width: 8rem;
+}
+
+.header .header__content .header__title h1,
+.header .header__content .header__description p strong {
+  color: #fca311;
+}
+
+.header .header__content .header__description p {
+  color: #e5e5e5;
+}
+
+.feature .feature__card .feature__icon-wrapper {
+  color: #14213d;
+  background: #fca311;
+}
+
+.feature .feature__card .feature__content .feature__title {
+  color: #fca311;
+  font-size: 1.5rem;
+}
+
+.feature .feature__card .feature__content .feature__description {
+  color: #e5e5e5;
+  font-size: 1rem;
+}
+
+.carousel-indicators {
+  position: unset;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.client .client__card .client__image {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: -2.5rem;
+}
+
+.client .client__card .client__image img {
+  filter: grayscale(1);
+}
+
+.client .client__card .client__content {
+  color: #14213d;
+  background: #fca311;
+  max-width: 40rem;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.client .client__card .client__content .client__info .client__fullname {
+  font-size: 1.25rem;
+}
+
+.client .client__card .client__content .client__info .client__company {
+  font-size: 1rem;
+}
+
+.client .client__card .client__content .client__info .client__comment {
+  font-size: 0.75rem;
+}
+
+.client .carousel-indicators button {
+  background: #fca311;
+  width: 0.75rem;
+  height: 0.75rem;
+  opacity: 1;
+}
+
+.client .carousel-indicators button.active {
+  background: #e5e5e5;
+  width: 1rem;
+  height: 1rem;
+}
+
+footer .footer__item .footer__icon {
+  color: #fca311;
+}
+
+footer .footer__item .footer__content {
+  color: #e5e5e5;
+  font-size: 1rem;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+}
