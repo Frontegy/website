@@ -4,7 +4,7 @@
 
 ### Description
 
-Static web presentation of the company.
+Static web presentation of the company. The plan is to create a CMS version of the website.
 
 ### Keywords
 
